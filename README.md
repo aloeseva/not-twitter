@@ -14,3 +14,11 @@ GitHub Account | Имя | Роль
 [miro](https://miro.com/app/board/o9J_lOrUdlg=/) 
 
 [trello](https://trello.com/b/5YI3mOWe/not-twitter-project)
+
+
+# Документация
+
+[Техническое задание.pdf](https://github.com/aloeseva/not-twitter/files/6200402/TZ.pdf)
+
+[Техническое задание.docx](https://github.com/aloeseva/not-twitter/files/6200403/TZ.docx)
+
