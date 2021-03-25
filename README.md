@@ -17,8 +17,8 @@ GitHub Account | Имя | Роль
 
 
 # Документация
+[Tekhnicheskoe_Zadanie.pdf](https://github.com/aloeseva/not-twitter/files/6202808/Tekhnicheskoe_Zadanie.pdf)
 
-[Техническое задание.pdf](https://github.com/aloeseva/not-twitter/files/6200402/TZ.pdf)
+[Tekhnicheskoe_Zadanie.docx](https://github.com/aloeseva/not-twitter/files/6202803/Tekhnicheskoe_Zadanie.docx)
 
-[Техническое задание.docx](https://github.com/aloeseva/not-twitter/files/6200403/TZ.docx)
-
+[Kursovaya_rabota.docx](https://github.com/aloeseva/not-twitter/files/6202813/Kursovaya_rabota.docx)
