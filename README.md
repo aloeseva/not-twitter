@@ -22,3 +22,5 @@ GitHub Account | Имя | Роль
 [Tekhnicheskoe_Zadanie.docx](Documentation/Техническое%20Задание.docx)
 
 [Kursovaya_rabota.docx](Documentation/Курсовая%20работа.docx)
+
+[Otchet_ob_aktivnosti.docx](Documentation/Отчет%20об%20активности.docx)
