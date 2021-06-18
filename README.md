@@ -17,10 +17,25 @@ GitHub Account | Имя | Роль
 
 
 # Документация
-[Tekhnicheskoe_Zadanie.pdf](Documentation/Техническое%20Задание.pdf)
+[Техническое задание.pdf](Documentation/Техническое%20Задание.pdf)
 
-[Tekhnicheskoe_Zadanie.docx](Documentation/Техническое%20Задание.docx)
+[Техническое задание.docx](Documentation/Техническое%20Задание.docx)
 
-[Kursovaya_rabota.docx](Documentation/Курсовая%20работа.docx)
+[Курсовая работа.docx](Documentation/Курсовая%20работа.docx)
 
-[Otchet_ob_aktivnosti.docx](Documentation/Отчет%20об%20активности.docx)
+[Курсовая работа.pdf](Documentation/Курсовая%20работа.pdf)
+
+[Отчёт об активности.docx](Documentation/Отчет%20об%20активности.docx)
+
+# Курсовая работа
+[Курсовая работа.docx](Documentation/Курсовая%20работа.docx)
+
+[Курсовая работа.pdf](Documentation/Курсовая%20работа.pdf)
+
+# Видео
+
+[Защита проекта (youtube)](https://youtu.be/FFy7KL2SLIo)
+
+[Защита проекта (google drive)](https://drive.google.com/file/d/1JCIBdUvsm_IW-oUDy7Qxyy-ZfkGxYtHk/view)
+
+[Демо видео проекта (youtube)](https://youtu.be/wa_GcutWURU)
