@@ -39,3 +39,9 @@ GitHub Account | Имя | Роль
 [Защита проекта (google drive)](https://drive.google.com/file/d/1JCIBdUvsm_IW-oUDy7Qxyy-ZfkGxYtHk/view)
 
 [Демо видео проекта (youtube)](https://youtu.be/wa_GcutWURU)
+
+# Приложение 
+
+[Сайт](https://ntproject.herokuapp.com)
+
+[Метрики](https://metrika.yandex.ru/dashboard?group=day&period=week&id=81020854)
