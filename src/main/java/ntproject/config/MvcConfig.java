@@ -33,8 +33,14 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addResourceLocations("file://" + iconPath + "/");
         registry.addResourceHandler("/img/**")
                 .addResourceLocations("file://" + uploadPath + "/");
-        registry.addResourceHandler("/static/**")
-                .addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/static/fonts/**")
+                .addResourceLocations("classpath:/static/fonts/");
+        registry.addResourceHandler("/static/img/**")
+                .addResourceLocations("classpath:/static/img/");
+        registry.addResourceHandler("/static/js/**")
+                .addResourceLocations("classpath:/static/js/");
+        registry.addResourceHandler("/static/css/**")
+                .addResourceLocations("classpath:/static/css/");
     }
 
     @Override

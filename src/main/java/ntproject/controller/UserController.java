@@ -10,6 +10,9 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.util.UriComponents;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.Map;
 
@@ -25,6 +28,17 @@ public class UserController {
         model.addAttribute("users", userSevice.findAll());
 
         return "userList";
+    }
+
+    @GetMapping("list")
+    public String users(
+            @RequestParam(required = false, defaultValue = "") String filter,
+            Model model
+    ) {
+        model.addAttribute("users", userSevice.findByName(filter));
+        model.addAttribute("filter", filter);
+
+        return "users";
     }
 
     @PreAuthorize("hasAuthority('ADMIN')")
@@ -75,6 +89,31 @@ public class UserController {
         userSevice.subscribe(currentUser, user);
 
         return "redirect:/user-messages/" + user.getId();
+    }
+
+    @PreAuthorize("hasAuthority('ADMIN')")
+    @GetMapping("delete/admin/{user}")
+    public String delete(
+            @PathVariable User user,
+            RedirectAttributes redirectAttributes,
+            @RequestHeader(required = false) String referer
+    ) {
+        userSevice.deleteUser(user);
+        UriComponents components = UriComponentsBuilder.fromHttpUrl(referer).build();
+
+        components.getQueryParams()
+                .forEach(redirectAttributes::addAttribute);
+
+        return "redirect:" + components.getPath();
+    }
+
+    @GetMapping("delete/{user}")
+    public String deleteUser(
+            @PathVariable User user
+    ) {
+        userSevice.deleteUser(user);
+
+        return "logout";
     }
 
     @GetMapping("unsubscribe/{user}")
