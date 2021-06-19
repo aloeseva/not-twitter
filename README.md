@@ -44,4 +44,4 @@ GitHub Account | Имя | Роль
 
 [Сайт](https://ntproject.herokuapp.com)
 
-[Метрики](https://metrika.yandex.ru/dashboard?group=day&period=week&id=81020854)
+[Метрики](https://metrika.yandex.ru/dashboard?id=81020854)
