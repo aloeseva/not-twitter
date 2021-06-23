@@ -32,7 +32,7 @@ GitHub Account | Имя | Роль
 
 [Курсовая работа.pdf](Documentation/Курсовая%20работа.pdf)
 
-[Презентация.pptx](Documentation/NTP.pptx)
+[Презентация.pptx](Documentation/NTP_1.pptx)
 
 # Видео
 
